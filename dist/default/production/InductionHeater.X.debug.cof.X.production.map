@@ -1,0 +1,130 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Tue Sep 10 19:09:46 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x0001a2
+                   .org_2       code   0x000400    program   0x000170
+.config_2007_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x0000d4      
+                            0x000400    0x0004b7      
+                            0x002007    0x002007      
+            397 out of 2182 program addresses used, program memory utilization is 18%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  Bin2Dec   0x0000bd    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                    COUNT   0x000480    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                     Cool   0x00007b    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                Cool_done   0x000081    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                  DW_Loop   0x0000cb    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                    Delay   0x00049a    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay.inc
+                  Delay_0   0x0004a0    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay.inc
+                  Delay_1   0x0004af    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay150ms.inc
+                Delay_150   0x0004a9    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay150ms.inc
+                  Display   0x000457    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+            Display_count   0x00045b    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                  DivWreg   0x0000ca    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+              EEPROM_READ   0x00008b    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+             EEPROM_WRITE   0x00009e    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                   END_WR   0x00009f    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                  END_WRC   0x0000ad    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+              GetSegments   0x000400    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                Interrupt   0x000438    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                 SEGMENTS   0x000477    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                    SEG_2   0x00046a    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                    SEG_3   0x000472    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                Work_done   0x00006e    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+             _.org_1_006A   0x00006a    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+             _.org_2_04A1   0x0004a1    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay.inc
+             _.org_2_04A3   0x0004a3    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay.inc
+             _.org_2_04A6   0x0004a6    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay.inc
+             _.org_2_04B0   0x0004b0    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay150ms.inc
+             _.org_2_04B2   0x0004b2    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay150ms.inc
+             _.org_2_04B5   0x0004b5    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay150ms.inc
+             _.org_2_04B6   0x0004b6    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay150ms.inc
+                      _no   0x000454    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                     _yes   0x00044d    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                 accident   0x000065    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+              change_mode   0x00003d    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                   checks   0x000022    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                decrement   0x000056    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+           decrement_cool   0x000060    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                     heat   0x00001b    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                increment   0x000045    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+           increment_cool   0x000050    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+           increment_heat   0x00004a    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                     init   0x000414    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Init.inc
+                 postinit   0x000014    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+               postinit_0   0x000013    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                 rollback   0x00048e    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                    setup   0x00002e    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                    start   0x000005    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000005    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+               postinit_0   0x000013    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                 postinit   0x000014    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                     heat   0x00001b    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                   checks   0x000022    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                    setup   0x00002e    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+              change_mode   0x00003d    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                increment   0x000045    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+           increment_heat   0x00004a    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+           increment_cool   0x000050    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                decrement   0x000056    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+           decrement_cool   0x000060    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                 accident   0x000065    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+             _.org_1_006A   0x00006a    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                Work_done   0x00006e    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                     Cool   0x00007b    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                Cool_done   0x000081    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+              EEPROM_READ   0x00008b    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+             EEPROM_WRITE   0x00009e    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                   END_WR   0x00009f    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                  END_WRC   0x0000ad    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                  Bin2Dec   0x0000bd    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                  DivWreg   0x0000ca    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                  DW_Loop   0x0000cb    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+              GetSegments   0x000400    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Main.asm
+                     init   0x000414    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Init.inc
+                Interrupt   0x000438    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                     _yes   0x00044d    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                      _no   0x000454    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                  Display   0x000457    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+            Display_count   0x00045b    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                    SEG_2   0x00046a    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                    SEG_3   0x000472    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                 SEGMENTS   0x000477    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                    COUNT   0x000480    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                 rollback   0x00048e    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Interrupt.inc
+                    Delay   0x00049a    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay.inc
+                  Delay_0   0x0004a0    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay.inc
+             _.org_2_04A1   0x0004a1    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay.inc
+             _.org_2_04A3   0x0004a3    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay.inc
+             _.org_2_04A6   0x0004a6    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay.inc
+                Delay_150   0x0004a9    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay150ms.inc
+                  Delay_1   0x0004af    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay150ms.inc
+             _.org_2_04B0   0x0004b0    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay150ms.inc
+             _.org_2_04B2   0x0004b2    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay150ms.inc
+             _.org_2_04B5   0x0004b5    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay150ms.inc
+             _.org_2_04B6   0x0004b6    program     static C:\Users\Andrey\Desktop\MPLABXProjects\KorovinMaxim.X\Delay150ms.inc
+
+
